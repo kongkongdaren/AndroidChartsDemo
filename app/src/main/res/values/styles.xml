@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--&lt;!&ndash;图表样式&ndash;&gt;-->
+    <!--<declare-styleable name="GraphStyle">-->
+        <!--&lt;!&ndash;图表标题&ndash;&gt;-->
+        <!--<attr name="graphTitle" format="string"/>-->
+        <!--&lt;!&ndash;X轴名称&ndash;&gt;-->
+        <!--<attr name="X_AxisName" format="string"/>-->
+        <!--&lt;!&ndash;Y轴名称&ndash;&gt;-->
+        <!--<attr name="Y_AxisName" format="string"/>-->
+        <!--<attr name="axisTextSize" format="dimension|integer"/>-->
+        <!--<attr name="axisTextColor" format="color|integer"/>-->
+
+    <!--</declare-styleable>-->
+
+    <!--图表样式-->
+    <declare-styleable name="SunnyGraphStyle">
+        <!--图表标题-->
+        <attr name="graphTitle" format="string"/>
+        <!--X轴名称-->
+        <attr name="X_AxisName" format="string"/>
+        <!--Y轴名称-->
+        <attr name="Y_AxisName" format="string"/>
+        <attr name="axisTextSize" format="dimension|integer"/>
+        <attr name="axisTextColor" format="color|integer"/>
+    </declare-styleable>
+</resources>
